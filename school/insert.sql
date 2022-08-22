@@ -1,0 +1,41 @@
+insert into students.sch_teacher (id,name,sex) values (1,'李老师',0);
+insert into students.sch_teacher (id,name,sex) values (2,'曹老师',1);
+insert into students.sch_teacher (id,name,sex) values (3,'许老师',1);
+
+insert into students.sch_student (id,name,age,sex) values (1,'小明',18,1);
+insert into students.sch_student (id,name,age,sex) values (2,'小黑',22,1);
+insert into students.sch_student (id,name,age,sex) values (3,'小白',18,1);
+insert into students.sch_student (id,name,age,sex) values (4,'小红',17,1);
+insert into students.sch_student (id,name,age,sex) values (5,'小程',16,0);
+insert into students.sch_student (id,name,age,sex) values (6,'小辉',18,0);
+insert into students.sch_student (id,name,age,sex) values (7,'小张',15,0);
+insert into students.sch_student (id,name,age,sex) values (8,'小宋',16,0);
+
+insert into students.sch_course (id,name,teacher_id) values (1,'python入门',1);
+insert into students.sch_course (id,name,teacher_id) values (2,'python进阶',2);
+insert into students.sch_course (id,name,teacher_id) values (3,'python网络',3);
+
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',1,70.0,1,1);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',2,60.0,2,1);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',3,80.0,3,1);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',4,90.0,1,2);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',5,70.0,2,2);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',6,80.0,3,2);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',7,50.0,1,3);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',8,60.0,2,3);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',9,40.0,3,3);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',10,55.0,1,4);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',11,66.0,2,4);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',12,77.0,3,4);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',13,86.0,1,5);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',14,85.0,1,5);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',15,84.0,1,5);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',16,71.0,1,6);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',17,78.0,1,6);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',18,76.0,1,6);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',19,96.0,1,7);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',20,86.0,1,7);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',21,66.0,1,7);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',22,83.0,1,8);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',23,89.0,1,8);
+insert into students.sch_achievement (create_dtime,id,score,course_id,student_id) values ('2022-08-17 02:32:25.293640+00:00',24,79.0,1,8);
